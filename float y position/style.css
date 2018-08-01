@@ -1,0 +1,59 @@
+* {
+    font-family: Impact;
+    margin:0px;
+    padding: 0px;
+    font-size:20px;
+}
+#wrapper{
+    background-color: white;
+   width: 1200px;
+   margin: 0 auto;
+}
+#caja::after { 
+    content: "";
+    display: block; 
+    clear: both;
+ }
+#header{
+    background-color: rgb(117, 40, 153);
+    height:40px;
+    margin: 0px 0px 10px 0px;
+    position: relative;
+    color: white;
+
+}
+
+#mainmenú{
+    background-color:rgb(20, 208, 255);
+    height:20px;
+    margin: 0px 0px 10px 0px;
+    position: relative;
+
+}
+
+#maincontent{
+    background-color: rgb(53, 71, 151);
+    float: left;
+    height: 200px;
+    width: 900px;
+    position:relative;
+}
+
+#submenú{
+    background-color: rgb(61, 184, 221);
+    float: right;
+    width: 280px;
+    height: 200px;
+    position: relative;
+ 
+}
+
+#footer{
+    background-color: rgb(114, 36, 167);
+    height: 40px;
+    margin:10px 0px 0px 0px;
+    position: relative;
+    color: black;
+    
+    
+}
